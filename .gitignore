@@ -167,3 +167,8 @@ google-cloud-sdk
 .DS_Store
 service_account.json
 configuration.yml
+
+# Generated Spark output (parquet/csv part-files, _SUCCESS, .crc)
+**/data/*.parquet/
+**/data/demo.csv/
+*.crc
