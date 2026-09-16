@@ -172,3 +172,8 @@ configuration.yml
 **/data/*.parquet/
 **/data/demo.csv/
 *.crc
+
+# Large raw datasets from the Learning Spark v2 companion repo - see
+# 002_spark_fast_data_analysis/README.md for the download command
+002_spark_fast_data_analysis/002B_sf-fire-calls.csv
+002_spark_fast_data_analysis/002C_departuredelays.csv
